@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'crispy_forms',
     'crispy_bootstrap5',
     # *********** List of the apps in this projects ********
+    'attendance.apps.AttendanceConfig',
 
 ]
 
