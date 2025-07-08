@@ -41,6 +41,21 @@ INSTALLED_APPS = [
     'crispy_bootstrap5',
     # *********** List of the apps in this projects ********
     'attendance.apps.AttendanceConfig',
+    'classes.apps.ClassesConfig',
+    'communication.apps.CommunicationConfig',
+    'events.apps.EventsConfig',
+    'finance.apps.FinanceConfig',
+    'grades.apps.GradesConfig',
+    'library.apps.LibraryConfig',
+    'reports.apps.ReportsConfig',
+    'students.apps.StudentsConfig',
+    'teachers.apps.TeachersConfig',
+    'users.apps.UsersConfig'
+
+
+
+
+
 
 ]
 
