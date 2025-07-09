@@ -44,13 +44,15 @@ INSTALLED_APPS = [
     'classes.apps.ClassesConfig',
     'communication.apps.CommunicationConfig',
     'events.apps.EventsConfig',
-    'templates.apps.FinanceConfig',
+    'finance.apps.FinanceConfig',
     'grades.apps.GradesConfig',
     'library.apps.LibraryConfig',
-    'templates.apps.ReportsConfig',
+    'reports.apps.ReportsConfig',
     'students.apps.StudentsConfig',
     'teachers.apps.TeachersConfig',
-    'users.apps.UsersConfig'
+    'users.apps.UsersConfig',
+    'mainpoint.apps.MainpointConfig',
+    'crudActions.apps.CrudactionsConfig',
 ]
 
 MIDDLEWARE = [

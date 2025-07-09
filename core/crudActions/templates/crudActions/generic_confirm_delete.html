@@ -1,0 +1,12 @@
+{% extends 'mainpoint/base.html' %}
+{% block content %}
+  <div class="container py-4">
+    <h2>Delete {{ object }}</h2>
+    <p>Are you sure you want to delete this {{ view.model.__name__ }}?</p>
+    <form method="post">
+      {% csrf_token %}
+      <button type="submit" class="btn btn-danger">Yes, delete</button>
+      <a href=".." class="btn btn-secondary">Cancel</a>
+    </form>
+  </div>
+{% endblock %}
